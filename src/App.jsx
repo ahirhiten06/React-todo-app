@@ -55,7 +55,8 @@ const App = () => {
   const remainingTodo = filteredTodo.filter((todo) => !todo.completed).length;
 
   return (
-    <div className="m-auto w-full p-6 max-w-2xl grid items-center justify-center ">
+    <div className="bg-[#ebeaeb] m-auto w-full p-6 max-w-2xl grid items-center justify-center ">
+      <h1 className="text-center text-5xl my-2">React Todo App</h1>
       <TodoForm sendTodo={sendTodo} />
       <div className="flex gap-4 items-center justify-center">{fltbtns}</div>
       <h4 className="text-center text-zinc-900 text-lg m-2 ">

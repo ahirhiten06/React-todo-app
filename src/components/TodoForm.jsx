@@ -17,7 +17,7 @@ const TodoForm = ({ sendTodo }) => {
   return (
     <form onSubmit={handleSubmit} className="flex gap-2 my-3 justify-center">
       <input
-        className="p-5 border-[1px] border-gray-600"
+        className="p-5 border-[5px] border-[#d8dbde]"
         value={todoName}
         onChange={handleChange}
         type="text"
